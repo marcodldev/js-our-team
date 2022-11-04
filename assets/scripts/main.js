@@ -47,12 +47,13 @@ for (let i=0; i < team.length; i++) {
     let elementoCorrente = team[i];
 
     document.getElementById("container1").innerHTML += `
-    <div class="card" style="width: 18rem;">
+    <div class="card m-2" style="width: 18rem;">
         <img src="./assets/img/${elementoCorrente.image}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${elementoCorrente.name}</h5>
             <p class="card-text">${elementoCorrente.role}</p>          
         </div>
     </div>
+
     `
 }
